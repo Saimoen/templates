@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
+
+header {
+  background: url(/media/background.jpg) no-repeat center 50% 50%;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  padding: 90px 0 10px 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4.5em;
+  text-transform: uppercase;
+}
+h2 {
+  padding: 20px 0 50px 0;
+  font-size: 3em;
+  text-transform: uppercase;
+}

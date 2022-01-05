@@ -1,0 +1,11 @@
+#formation {
+  position: relative;
+  float: right;
+  margin-right: 5%;
+  padding: 80px 0 60px 50px;
+  width: 45%;
+  max-width: 660px;
+  background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+  clip-path: polygon(1% 1%, 93% 5%, 97% 96%, 6% 95%);
+  height: 420vh;
+}

@@ -1,0 +1,17 @@
+#navbar {
+  background-color: #fafafa;
+  opacity: 0.9;
+  height: 42px;
+  transition: 0.7s;
+}
+.navbar-nav {
+  width: 80% !important;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+header {
+  text-align: center;
+  height: 400vh;
+  background: url(/media/background.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+}

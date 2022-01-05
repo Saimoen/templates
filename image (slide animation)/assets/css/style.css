@@ -1,0 +1,55 @@
+.carousel {
+  width: 20%;
+  border-radius: 0px 0px 15px 15px;
+  margin: -20px auto 20px auto;
+  overflow: hidden;
+  box-shadow: 8px 8px 4px -3px black;
+}
+@media (max-width: 840px) {
+  .carousel {
+    display: none;
+  }
+}
+.carousel__figure {
+  position: relative;
+  width: 300%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  animation: 10s sliders infinite;
+}
+.carousel__figure--pic {
+  width: 33.33%;
+  height: auto;
+  float: left;
+}
+
+@keyframes sliders {
+  0% {
+    left: 0%;
+  }
+  10% {
+    left: 0%;
+  }
+  20% {
+    left: -100%;
+  }
+  30% {
+    left: -100%;
+  }
+  40% {
+    left: -200%;
+  }
+  50% {
+    left: -200%;
+  }
+  60% {
+    left: -300%;
+  }
+  80% {
+    left: -300%;
+  }
+  100% {
+    left: 0%;
+  }
+}
